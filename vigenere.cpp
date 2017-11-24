@@ -5,10 +5,9 @@ using namespace std;
 int main()
 {
 	  
-	  
+	int counter=0;
 	string plaintext="make it";
 	string key="math";
-    int counter=0;
     string storage_encryptedText;
     char storage_oneChar;
       
