@@ -2,15 +2,15 @@
 #include<iostream>
 #include<conio.h>
 using namespace std;
-main()
+int main()
 {
 	  
 	  
-	  string plaintext="make it";
-	  string key="math";
-      int counter=0;
-      string storage_encryptedText;
-      char storage_oneChar;
+	string plaintext="make it";
+	string key="math";
+    int counter=0;
+    string storage_encryptedText;
+    char storage_oneChar;
       
     //*************************************
     
@@ -34,6 +34,7 @@ main()
 	
 	
 getch();
+return 0;
 }
 
 
